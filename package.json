@@ -1,5 +1,5 @@
 {
-  "name": "Fawud",
+  "name": "fawud",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,17 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-navigation/native": "^7.0.17",
+    "@react-navigation/stack": "^7.2.1",
     "react": "19.0.0",
-    "react-native": "0.78.1"
+    "react-native": "0.78.1",
+    "react-native-gesture-handler": "^2.24.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-reanimated": "^3.17.1",
+    "react-native-safe-area-context": "^5.3.0",
+    "react-native-screens": "^4.9.2",
+    "styled-components": "^6.1.16"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -35,5 +44,10 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "description": "This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

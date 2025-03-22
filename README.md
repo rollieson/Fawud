@@ -95,3 +95,21 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+run backend and frontend server with npm start (ensure to navigate to each direct each time you run the command)
+
+run npx react-native run-android to start the application on your android device
+
+Ensure to connect via emulator, USB, or tcpip before attempting to 
+run the application on your device.
+an ease way is to run via tcpip by following these steps:
+1. adb devices
+2. adb connect 192.168.X.X (try ip addr show)
+3. adb tcpip 5555
+
+
+run mongo command
+
+reset the git commit: git reset --soft HEAD~1
+
